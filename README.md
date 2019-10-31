@@ -20,8 +20,9 @@ php bin/console doctrine:fixtures:load --append
 
 # Routes available
 bin/console debug:router
+```
 
-
+# Create Users
 INSERT INTO `user` (`id`, `username`, `api_key`, `created_at`, `updated_at`)
 VALUES
 	(1, 'user', 'yabh9-8by1by1ay6yh-19y8a6ba9y91',  NOW(),  NOW()),
